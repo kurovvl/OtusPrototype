@@ -12,11 +12,7 @@ namespace OtusPrototype.Classes
         public enum FuelType { Gasoline, Electric, Diesel}
         public int Id { get; set; }
         public string Name { get; set; }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <param name="name"></param>
+
         public BaseEntity(int id, string name)
         {
             Id = id;
